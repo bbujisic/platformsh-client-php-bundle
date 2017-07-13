@@ -1,0 +1,23 @@
+{
+    "name": "danielpanzella/platformsh-client-php-bundle",
+    "description": "A bundle for the Platform.sh PHP API Client",
+    "type": "symfony-bundle",
+    "require": {
+        "platformsh/client": "^0.11.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "DanielPanzella\\PlatformClientBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "Tests/"
+        ]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Panzella",
+            "email": "daniel.panzella@gmail.com"
+        }
+    ]
+}
