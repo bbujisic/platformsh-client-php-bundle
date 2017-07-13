@@ -9,3 +9,8 @@ platform_client:
     api_token: <platform API Token>
     api_token_type: <API Token type>
 ```
+
+Access the Service
+```php
+$this->get('platform.client');
+```
