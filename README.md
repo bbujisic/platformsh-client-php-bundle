@@ -1,8 +1,8 @@
-#Platform.sh API Client Symfony Bundle
+# Platform.sh API Client Symfony Bundle
 
 A Symfony Bundle for the Platform.sh PHP Client (https://github.com/platformsh/platformsh-client-php).
 
-##Configuration
+## Configuration
 
 ```yaml
 platform_client:
