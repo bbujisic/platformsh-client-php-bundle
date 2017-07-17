@@ -31,7 +31,7 @@ class PlatformClientExtension extends Extension {
 			"api_token_type" => $config['api_token_type']
 		];
 
-		$definition = $container->getDefinition('platform.connection');
+		$definition = $container->getDefinition('Platformsh\Client\Connection\Connector');
 		$definition->replaceArgument(0, $platformClientServiceConfiguration);
 
 

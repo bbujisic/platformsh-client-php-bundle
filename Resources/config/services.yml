@@ -2,11 +2,11 @@ parameters:
 
 
 services:
-  platform.connection:
+  Platformsh\Client\Connection\Connector:
     class: Platformsh\Client\Connection\Connector
     arguments: [~,~]
 
-  platform.client:
+  Platformsh\Client\PlatformClient:
     class: Platformsh\Client\PlatformClient
     arguments:
-      - '@platform.connection'
+      - '@Platformsh\Client\Connection\Connector'

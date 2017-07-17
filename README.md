@@ -10,7 +10,17 @@ platform_client:
     api_token_type: <API Token type>
 ```
 
-Access the Service
+## Access the Service:
+
+### By Service ID from the container
 ```php
-$this->get('platform.client');
+$this->get('Platformsh\Client\PlatformClient');
+```
+
+### Symfony 3.3+ Autowiring
+```php
+public function __construct(\Platformsh\Client\PlatformClient $platformClient)
+{
+    $this->platformClient = $platformClient;
+}
 ```
