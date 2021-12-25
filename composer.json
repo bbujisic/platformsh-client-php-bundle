@@ -1,5 +1,5 @@
 {
-    "name": "danielpanzella/platformsh-client-php-bundle",
+    "name": "bbujisic/platformsh-client-php-bundle",
     "description": "A bundle for the Platform.sh PHP API Client",
     "type": "symfony-bundle",
     "require": {
