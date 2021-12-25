@@ -1,12 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dpanzella
- * Date: 7/12/17
- * Time: 9:16 PM
- */
 
-namespace DanielPanzella\PlatformClientBundle\DependencyInjection;
+namespace bbujisic\PlatformClientBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

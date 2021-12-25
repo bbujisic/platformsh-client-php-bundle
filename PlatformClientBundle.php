@@ -1,6 +1,6 @@
 <?php
 
-namespace DanielPanzella\PlatformClientBundle;
+namespace bbujisic\PlatformClientBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
