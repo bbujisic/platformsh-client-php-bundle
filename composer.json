@@ -3,7 +3,7 @@
     "description": "A bundle for the Platform.sh PHP API Client",
     "type": "symfony-bundle",
     "require": {
-        "platformsh/client": "^2.5.1"
+        "platformsh/client": "*"
     },
     "autoload":{
         "psr-4":{
